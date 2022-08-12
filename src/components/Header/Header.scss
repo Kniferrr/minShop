@@ -1,0 +1,25 @@
+.App_Header_LogOutButton{
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.App_Header_logginButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.App-header{
+    width: 100%;
+    min-height: 50px;
+    background: rgb(9, 134, 76);
+    display: grid;
+    grid-template-columns: repeat(6,1fr) 3fr;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 30px;
+  }
